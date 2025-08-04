@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    background-color: bisque;
+    height: 100vh;
+
+    /*Estrutura de layout pelo Grid*/
+    display:  grid;    /*1 coluna 2 coluna ... */
+    grid-template-columns: 1fr 2fr;
+       /*tamanho da 1 linha tamanho da 2 linha*/ 
+    grid-template-rows: 1fr 1fr;
+}
+ 
+div{
+    background-color: blueviolet;
+    height: 200px;
+   
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
