@@ -3,6 +3,44 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: black;
+
+#agua{
+    background-color: bisque;
+    
+    display: grid;
+
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    
+}
+
+.agua{
+    height: 200px;
+    background-color: purple;
+    border: 2px solid chartreuse;
+    margin: 10px;
+}
+
+#grid_2{
+    background-color: bisque;
+    height: 400px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 4fr 1fr;
+}
+header,footer{
+    background-color: blueviolet;
+    border: 2px solid violet;
+}
+#danoninho{
+    background-color: bisque;
+    display: grid;
+
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr;
+}
+.danoninho{
+    background-color: purple;
+    border: 2px solid salmon;
 }
